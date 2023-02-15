@@ -1,6 +1,6 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
-  background-image: linear-gradient(45deg, #4d9dc0, #003853)
+  background-image: linear-gradient(45deg,#003853, #4d9dc0)
 }
 
 .div-login {
@@ -13,6 +13,8 @@ body {
   padding: 80px;
   border-radius: 20px;
   color: #ffff;
+  box-shadow: 10px 10px 10px #003853;
+  text-align: center;
 }
 
 .input1 {
@@ -20,6 +22,7 @@ body {
   padding: 20px;
   outline: none;
   border-radius: 5px;
+  border: none;
 }
 
 .button1 {
@@ -29,7 +32,7 @@ body {
   width: 25%;
   border-radius: 20px;
   color: #ffff;
-  margin: 0 35px;
+  margin: 0 25px;
   cursor: pointer;
 }
 
@@ -48,12 +51,10 @@ body {
 }
 
 .esq:hover {
-  background-color: #2386b0;
+  background-color: #38acdd;
 }
 .esqueci{
   cursor: pointer;
+  color: #ffff;
  
-}
-.esqueci:hover{
-  background-color: #2386b0;
 }
